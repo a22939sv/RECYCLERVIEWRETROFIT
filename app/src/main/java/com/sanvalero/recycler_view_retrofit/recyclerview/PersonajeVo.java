@@ -1,4 +1,4 @@
-package com.sanvalero.recycler_view_retrofit;
+package com.sanvalero.recycler_view_retrofit.recyclerview;
 
 public class PersonajeVo {
     private String nombre;

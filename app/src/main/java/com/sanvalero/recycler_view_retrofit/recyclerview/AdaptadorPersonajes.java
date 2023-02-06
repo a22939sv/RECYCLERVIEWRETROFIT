@@ -1,4 +1,4 @@
-package com.sanvalero.recycler_view_retrofit;
+package com.sanvalero.recycler_view_retrofit.recyclerview;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,6 +8,8 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.sanvalero.recycler_view_retrofit.R;
 
 import java.util.ArrayList;
 

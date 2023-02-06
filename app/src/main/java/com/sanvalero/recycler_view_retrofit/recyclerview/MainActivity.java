@@ -1,12 +1,12 @@
-package com.sanvalero.recycler_view_retrofit;
+package com.sanvalero.recycler_view_retrofit.recyclerview;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
-import android.widget.Adapter;
+
+import com.sanvalero.recycler_view_retrofit.R;
 
 import java.util.ArrayList;
 
