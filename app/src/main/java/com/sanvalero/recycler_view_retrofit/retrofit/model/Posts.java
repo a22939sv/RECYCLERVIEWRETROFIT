@@ -1,9 +1,18 @@
 package com.sanvalero.recycler_view_retrofit.retrofit.model;
 
+import com.google.gson.annotations.SerializedName;
+
 public class Posts {
+    @SerializedName("userId")
     private int userId;
+
+    @SerializedName("id")
     private int id;
+
+    @SerializedName("title")
     private String title;
+
+    @SerializedName("body")
     private String body;
 
     public Posts() {
@@ -47,5 +56,15 @@ public class Posts {
 
     public void setBody(String body) {
         this.body = body;
+    }
+
+    @Override
+    public String toString() {
+        return "Posts{" +
+                "userId=" + userId +
+                ", id=" + id +
+                ", title='" + title + '\'' +
+                ", body='" + body + '\'' +
+                '}';
     }
 }
